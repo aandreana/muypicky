@@ -24,4 +24,5 @@ urlpatterns = [
     # Using these TemplateViews removes the need to create a view
     url(r'^about/$', TemplateView.as_view(template_name = 'muypicky/about.html')),
     url(r'^contact/$', TemplateView.as_view(template_name = "muypicky/contact.html")),
+    url(r'^restaurants/', include('restaurants.urls')),
 ]

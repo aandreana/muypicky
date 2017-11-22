@@ -30,14 +30,13 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-    <!-- Main Navigation -->
-    {% include "snippets/nav.html" %}
-    <!-- Main Content Container -->
-    <div class="container">
-        {% block content %}{% endblock content %}
+        <!-- Main Navigation -->
+        {% include "snippets/nav.html" %}
+        <!-- Main Content Container -->
+        <div class="container">
+            {% block content %}{% endblock content %}
+        </div> <!-- /container -->
 
-
-    </div> <!-- /container -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="static/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
